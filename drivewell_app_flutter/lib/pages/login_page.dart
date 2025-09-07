@@ -338,23 +338,6 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                               ),
                             ),
                             const SizedBox(height: 20),
-                            ElevatedButton.icon(
-                              onPressed: () {
-                                Navigator.pushNamed(context, '/admin_login');
-                              },
-                              icon: const Icon(Icons.shield_outlined, color: Colors.white),
-                              label: const Text(
-                                'Admin Login',
-                                style: TextStyle(color: Colors.white),
-                              ),
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.blueAccent,
-                                minimumSize: const Size.fromHeight(50),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.0),
-                                ),
-                              ),
-                            ),
                           ],
                         ),
                       ),
